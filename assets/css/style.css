@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 
 * {
 margin: 0;
@@ -7,14 +9,14 @@ border: none;
 }
 
 body {
-font-family: lato, sans-serif;
+font-family: Gentium Book Plus, serif;
 font-weight: 300;
 color: #3a3a3a;
 }
 
 /* headings and logo */
 h1, h2 {
-    font-family: Oswald, sans-serif;  
+    font-family: latoGentium Book Plus, sans-serif;  
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -49,11 +51,11 @@ color: inherit;
 }
 
 #menu a:hover {
-border-bottom: 1px solid #3a3a3a;
+color: #f14506;
 }
 
 .active {
-border-bottom: 1px solid #3a3a3a;
+background-color: #f16c6b;
 }
 
 /* horse logo image and cover tex*/
@@ -69,7 +71,7 @@ position: relative;
 .book{
     Color:#fafafa;
     font-size: 140%;
-    font-family: Oswald, sans-serif;
+    font-family: lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
@@ -87,7 +89,10 @@ position: relative;
     position: absolute;
 }
 
+.book:hover{
+background-color: #f16c6b;
 
+}
 #front-image {
 height: 600px;
 width: 100%;
