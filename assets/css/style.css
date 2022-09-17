@@ -23,7 +23,7 @@ h1, h2 {
 }
 #logo {
 float: left;
-font-size: 280%;
+font-size: 200%;
 margin-left: 30px;
 color: #fff;
 }
@@ -33,7 +33,7 @@ color: #fff;
 
 #navb {
 float: right;
-font-size: 105%;
+font-size: 180%;
 }
 
 #navb, #logo {
@@ -45,7 +45,6 @@ line-height: 75px;
 float: left;
 list-style-type: none;
 margin-right: 40px;
-/*margin-left: -10px;*/
 font-family: "Gentium Book Basic";
 display: block;
 font-size: 20px;
