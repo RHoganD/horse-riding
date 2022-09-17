@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap');
 
 
 * {
@@ -8,16 +7,17 @@ padding: 0;
 border: none;
 }
 
+
 body {
-font-family: Gentium Book Plus, serif;
+font-family: 'Poppins', 'Gentium Book Basic', 'Montserrat', sans-serif;
 font-weight: 300;
-color: #3a3a3a;
+background-color: #af7381;
 }
 
 /* headings and logo */
+
 h1, h2 {
-    font-family: latoGentium Book Plus, sans-serif;  
-    text-transform: uppercase;
+    font-family: 'Gentium Book Basic', serif;  
     letter-spacing: 4px;
     color: #252525;
 }
@@ -25,38 +25,77 @@ h1, h2 {
 float: left;
 font-size: 280%;
 margin-left: 30px;
+color: #fff;
 }
 
 /* navigation links */
 
-#menu {
+
+#navb {
 float: right;
-font-size: 110%;
-letter-spacing: 4px;
+font-size: 105%;
 }
 
-#menu, #logo {
+#navb, #logo {
 line-height: 75px;
 }
 
-#menu li {
+
+#navb li {
 float: left;
 list-style-type: none;
-margin-right: 30px;
+margin-right: 40px;
+/*margin-left: -10px;*/
+font-family: "Gentium Book Basic";
+display: block;
+font-size: 20px;
 }
 
-#menu a {
+#navb a {
 text-decoration: none;
-color: inherit;
+color: #fff;
 }
 
-#menu a:hover {
-color: #f14506;
+#navb a:hover {
+Color: #490d1e;
+transition: ease-in 200ms;
 }
 
-.active {
-background-color: #f16c6b;
-}
+/*nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1em 1.25em 1em 0em;
+  
+
+.navb-links ul {
+    display: flex;
+    margin-right: 0.7em;
+  }
+  
+  .navb-links ul li {
+    list-style: none;
+    padding: 0em 1.2em;
+  }
+  
+  .navb-links ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--clr-secondary);
+  }
+  
+  .navb-links a:hover {
+    transition: ease-in 300ms;
+    color: var(--clr-primary);
+  }
+  
+  .navb-links a:active {
+    transition: ease-in 300ms;
+    color: var(--clr-primary); */
+  
 
 /* horse logo image and cover tex*/
 
@@ -66,33 +105,37 @@ width: 100%;
 overflow: hidden;
 position: relative;
 }
-    
+   
 
-.book{
-    Color:#fafafa;
-    font-size: 140%;
-    font-family: lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.book-btn {
+    color: #f8f8ff;
+    background-color: #18191a;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
     text-align: center;
     
-    width: 200px;
-    height: 100px;
+    padding: 0.8em 2em;
+    border-radius: 8px;
+    font-size: 1.18em;
+    font-weight: 400;
+    word-spacing: 2px;
+
     
-    padding-top: 10px;
-    padding-left: 5px;
-        
-    background-color: transparent;
-    border: solid rgb(244, 244, 241);
+    width: 120px;
+    height: 30px; 
     bottom: 200px;
     left: 50px;
     position: absolute;
-}
+  }
+  
+  .book-btn:hover {
+    background-color:#f8f8ff;
+    color: #18191a;
+    transition: ease-in 300ms;
+  }
+  
 
-.book:hover{
-background-color: #f16c6b;
 
-}
 #front-image {
 height: 600px;
 width: 100%;
