@@ -11,7 +11,8 @@ border: none;
 body {
 font-family: 'Poppins', 'Gentium Book Basic', 'Montserrat', sans-serif;
 font-weight: 300;
-background-color: #af7381;
+background-color: #f8f8ff;
+
 }
 
 /* headings and logo */
@@ -21,6 +22,14 @@ h1, h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+
+#header-flex {
+background-color: #af7381;
+display: flex;
+justify-content: space-between;
+}
+
+
 #logo {
 float: left;
 font-size: 200%;
@@ -28,8 +37,13 @@ margin-left: 30px;
 color: #fff;
 }
 
-/* navigation links */
+#logo:hover {
+    Color: #490d1e;
+    transition: ease-in 200ms;
+    }
 
+
+/* navigation links */
 
 #navb {
 float: right;
@@ -60,45 +74,9 @@ Color: #490d1e;
 transition: ease-in 200ms;
 }
 
-/*nav {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 1em 1.25em 1em 0em;
-  
+/* front image and book now botton*/
 
-.navb-links ul {
-    display: flex;
-    margin-right: 0.7em;
-  }
-  
-  .navb-links ul li {
-    list-style: none;
-    padding: 0em 1.2em;
-  }
-  
-  .navb-links ul li a {
-    display: block;
-    text-decoration: none;
-    color: var(--clr-secondary);
-  }
-  
-  .navb-links a:hover {
-    transition: ease-in 300ms;
-    color: var(--clr-primary);
-  }
-  
-  .navb-links a:active {
-    transition: ease-in 300ms;
-    color: var(--clr-primary); */
-  
-
-/* horse logo image and cover tex*/
-
-#front{
+#front-section{
 height: 600px;
 width: 100%;
 overflow: hidden;
@@ -147,7 +125,21 @@ padding: 400px 100px;
 /* sections  */
 
 
-#welcome{
+#about-section {
+
+    margin: 100px;
+    border: 1px solid white;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    padding: 30px;
+    display: block;
+    text-align: justify;
+    font-size: 18px;
+    box-shadow: 5px 10px #363636;
+}
+
+
+.welcome-container{
     height: 200px;
     background-color: #eddad4;
 }        
