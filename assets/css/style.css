@@ -121,6 +121,17 @@ padding: 400px 100px;
 }
 
 
+/* About us section */
+
+#about-header-section {
+    background-color: #f3f3f3;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    color: #2D5A27;
+    line-height: 220px;
+}
+
 
 /* sections  */
 
@@ -145,23 +156,15 @@ padding: 400px 100px;
     overflow: hidden;
 }*/
 
-/* About us section */
 
-#about-header {
-    background-color: #f3f3f3;
-    height: 220px;
-    width: 100%;
-    text-align: center;
-    color: #2D5A27;
-    line-height: 220px;
-}
 
-#about-section-content-1 {
+
+/*#about-section-content-1 {
     text-align: center;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+}*/
 
 #about-left-content {
     display: inline-block;
@@ -180,6 +183,7 @@ padding: 400px 100px;
 
 #about-image {
     width: 400px;
+    float: left;
 }
 
 
