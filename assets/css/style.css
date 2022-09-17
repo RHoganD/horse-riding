@@ -134,15 +134,76 @@ padding: 400px 100px;
     padding: 30px;
     display: block;
     text-align: justify;
-    font-size: 18px;
-    box-shadow: 5px 10px #363636;
+    background-color: #af7381;
+    box-shadow: 4px 8px #363636; 
+}  
+
+/*.image-container{
+    background-image: url('../images/pexels-jose-aragones-2123375.jpg') no-repeat center center;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+}*/
+
+/* About us section */
+
+#about-header {
+    background-color: #f3f3f3;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    color: #2D5A27;
+    line-height: 220px;
+}
+
+#about-section-content-1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about-left-content {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10px;
+}
+
+#about-right-content {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#about-image {
+    width: 400px;
 }
 
 
-.welcome-container{
-    height: 200px;
-    background-color: #eddad4;
-}        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #facilities{
     height: 200px;
