@@ -136,39 +136,39 @@ padding: 400px 100px;
 }
 
 .about-header-section {
-    height: 220px;
-    width: 100%;
-    text-align: center;
-    line-height: 220px;
+    width: 100%;  
     }
 
 .about-header-section h2{
         text-align: center;
-        }
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 4px;
+        font-family: 'Gentium Book Basic', serif;  
+        color: #fff;
+}
+
 
 hr{
     border: 1px solid #490d1e; 
-    width: 80%;
-    margin: 5px 0;
+    width: 50%;
+    margin-left: 350px;
        
 }
 
 #about-left-section
 
 .about-left-content {
-display: inline-block;
-text-align: left;
-vertical-align: top;
-width: 33%;
+width: 100%;
 margin-right: 10px;
+color: #fff;
 }
+ 
+.about-left-content p {
+    margin-top: 10px;
+    
 
-.about-left-content h3 {
-    font-weight: 400;
-    font-size: 20px;
 }
-
-.about-left-content p {}
 
 
  
