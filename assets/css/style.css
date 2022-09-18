@@ -218,19 +218,31 @@ display: flex;
       }
 
       .column img{
-        width: 230px;
-        position: absolute;   
+        width: 200px;
+        position: absolute; 
         right: 0;
         bottom: 0;
         }
         
-    .column:hover{
-      flex-grow: 2.5;
+       .column .trekking{
+      width: 280px;
+        }
+
+        .column .jumping{
+            width: 280px;
+                 }
+
+      .column:hover{
+      flex-grow: 2.7;
             }
 
      .column:hover .caption{
         display: block; 
             }
+    .column h2{
+    color: #fff;
+
+    }
      .column:hover h2{
         text-align: left;   
                 }
