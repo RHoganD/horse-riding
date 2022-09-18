@@ -40,25 +40,29 @@
 
     
           
-    <section id="gallery">
+    <section>
         <h2> Gallery of our centre</h2>
+        <div class="img-cover" id="coverbox">
+            <img id="imgcover" src="assets/images/1598020173.jpg" alt="">
+            <span onclick="closeImgCover()">X</span>
+        </div>
         <div class="images-gallery">
-        <img src="assets/images/1598020173.jpg" alt="">
-        <img src="assets/images/pexels-jean-van.jpg" alt="">
-       <img src="assets/images/Pony-Day-The-Grove.png" alt="">
-        <img src="assets/images/pexels-alexander.jpg" alt="">
-        <img src="assets/images/pexels-anne-johnson.jpg" alt="">
-       <img src="assets/images/pexels-arthur-krijgsman.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-1.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-2.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-5.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-6.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-7.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-8.jpg" alt="">
-       <img src="assets/images/pexels-barbara-olsen-9.jpg" alt="">     
-       <img src="assets/images/pexels-barbara-olsen.jpg" alt="">    
-       <img src="assets/images/aila-klinsmann.jpg" alt="">
-       <img src="assets/images/runing.jpg" alt="">
+        <img src="assets/images/1598020173.jpg" alt=""          onclick="openImgCover(this.src)">
+        <img src="assets/images/pexels-jean-van.jpg" alt=""     onclick="closeImgCover(this.src)">
+       <img src="assets/images/Pony-Day-The-Grove.png" alt=""   onclick="closeImgCover(this.src)">
+        <img src="assets/images/pexels-alexander.jpg" alt=""    onclick="closeImgCover(this.src)">
+        <img src="assets/images/pexels-anne-johnson.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-arthur-krijgsman.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-1.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-2.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-5.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-6.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-7.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-8.jpg" alt="" onclick="closeImgCover(this.src)">
+       <img src="assets/images/pexels-barbara-olsen-9.jpg" alt="" onclick="closeImgCover(this.src)">     
+       <img src="assets/images/pexels-barbara-olsen.jpg" alt=""   onclick="closeImgCover(this.src)">    
+       <img src="assets/images/aila-klinsmann.jpg" alt=""         onclick="closeImgCover(this.src)">
+      
 
       
 
@@ -88,7 +92,15 @@
         </ul>
     </footer>
 
-
+    <script>
+        var coverbox = document.getElementbyId("coverbox");
+        var imgcover = document.getElementbyId("imgcover");
+        
+        function openImgCover(choose){
+        coverbox .style.display = "flex";
+        imgcover.src = choose;
+        }
+</script>
 <!--font awesome script-->
 <script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
 </body>
