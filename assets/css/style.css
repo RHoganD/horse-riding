@@ -168,7 +168,7 @@ color: #fff;
 
  .facilities{
 width: 1000px;
-height: 400px;
+height: 450px;
 background: #ccc;
 margin: 120px auto;
 display: flex;
@@ -198,10 +198,11 @@ display: flex;
 
      .caption{
         max-width: 230px;
-        font-size: 12px;
+        font-size: 13px;
         margin: 28px 0;
         display: none;
-                }
+        }
+
      .caption button{
       border: 1px solid #fff;
       background: transparent;
