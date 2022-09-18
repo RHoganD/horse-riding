@@ -48,6 +48,7 @@ color: #fff;
 #navb {
 float: right;
 font-size: 180%;
+overflow: hidden;
 }
 
 #navb, #logo {
@@ -73,6 +74,25 @@ color: #fff;
 Color: #490d1e;
 transition: ease-in 200ms;
 }
+
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
 
 /* front image and book now botton*/
 
