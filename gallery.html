@@ -42,26 +42,27 @@
           
     <section>
         <h2> Gallery of our centre</h2>
-        <div class="img-cover" id="coverbox">
-            <img id="imgcover" src="assets/images/1598020173.jpg" alt="">
+
+        <div class="img-cover" id="imgcoverBox">
+            <img src="assets/images/pexels-jean-van.jpg" id="imgcover" alt="">
             <span onclick="closeImgCover()">X</span>
         </div>
         <div class="images-gallery">
-        <img src="assets/images/1598020173.jpg" alt=""          onclick="openImgCover(this.src)">
-        <img src="assets/images/pexels-jean-van.jpg" alt=""     onclick="closeImgCover(this.src)">
-       <img src="assets/images/Pony-Day-The-Grove.png" alt=""   onclick="closeImgCover(this.src)">
-        <img src="assets/images/pexels-alexander.jpg" alt=""    onclick="closeImgCover(this.src)">
-        <img src="assets/images/pexels-anne-johnson.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-arthur-krijgsman.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-1.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-2.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-5.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-6.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-7.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-8.jpg" alt="" onclick="closeImgCover(this.src)">
-       <img src="assets/images/pexels-barbara-olsen-9.jpg" alt="" onclick="closeImgCover(this.src)">     
-       <img src="assets/images/pexels-barbara-olsen.jpg" alt=""   onclick="closeImgCover(this.src)">    
-       <img src="assets/images/aila-klinsmann.jpg" alt=""         onclick="closeImgCover(this.src)">
+        <img src="assets/images/1598020173.jpg" onclick="openImgCover(this.src)" alt="" >         
+        <img src="assets/images/pexels-jean-van.jpg" onclick="openImgCover(this.src)" alt="" >    
+       <img src="assets/images/Pony-Day-The-Grove.png" onclick="openImgCover(this.src)" alt="" >
+        <img src="assets/images/pexels-alexander.jpg" onclick="openImgCover(this.src)" alt="" >
+        <img src="assets/images/pexels-anne-johnson.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-arthur-krijgsman.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-1.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-2.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-5.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-6.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-7.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-8.jpg" onclick="openImgCover(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-9.jpg" onclick="openImgCover(this.src)" alt="" >    
+       <img src="assets/images/pexels-barbara-olsen.jpg" onclick="openImgCover(this.src)" alt="" >    
+       <img src="assets/images/aila-klinsmann.jpg" onclick="openImgCover(this.src)" alt="" >
       
 
       
@@ -93,12 +94,16 @@
     </footer>
 
     <script>
-        var coverbox = document.getElementbyId("coverbox");
+        var imgcoverBox = document.getElementbyId("imgcoverBox");
         var imgcover = document.getElementbyId("imgcover");
         
         function openImgCover(choose){
-        coverbox .style.display = "flex";
+        imgcoverBox.style.display = "flex";
         imgcover.src = choose;
+        }
+
+        function closeImgCover(){
+        imgcoverBox.style.display = "none";   
         }
 </script>
 <!--font awesome script-->
