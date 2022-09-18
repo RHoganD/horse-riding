@@ -238,7 +238,8 @@ display: flex;
      .column:hover h2{
         text-align: left;   
                 }
-                
+          
+                /* Gallery */
         .images-gallery{
          width: 80%;
         margin: 100px auto 50px;
