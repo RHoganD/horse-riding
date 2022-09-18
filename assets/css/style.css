@@ -76,28 +76,10 @@ transition: ease-in 200ms;
 }
 
 
-/* Page content */
-.content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement */
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-
 /* front image and book now botton*/
 
 #front-section{
-height: 600px;
+height: 700px;
 width: 100%;
 overflow: hidden;
 position: relative;
@@ -134,10 +116,10 @@ position: relative;
 
 
 #front-image {
-height: 600px;
+height: 700px;
 width: 100%;
 background: url('../images/FKW68H.jpg') no-repeat center center;
-padding: 150px 5px;
+padding: 170px 5px;
 overflow: hidden;
 }
 
