@@ -158,13 +158,13 @@ hr{
     margin-left: 350px;     
 }
 
-.about-left-content {
+.about-content{
 width: 100%;
 margin-right: 10px;
 color: #fff;
 }
  
-.about-left-content p {
+.about-content p{
     margin-top: 10px;
     }
 
@@ -344,6 +344,7 @@ display: flex;
                 text-align: center;
                 color: #fff;
                 width: 400px;
+               
                 /*margin-left: 550px;*/
                 justify-content: center;
                 display: inline;
