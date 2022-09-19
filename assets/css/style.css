@@ -336,38 +336,47 @@ display: flex;
                 footer {
                  height: 200px;
                  background-color: #af7381;                 
-                 box-sizing: border-box;
+                 /*box-sizing: border-box;*/
+                 margin: 0;
                 }
 
                .copyright {
                 text-align: center;
                 color: #fff;
-                
-                             }
+                width: 400px;
+                /*margin-left: 550px;*/
+                justify-content: center;
+                display: inline;
+               
+                  }
+
+
                 .copyright h3 {
                 font-family: 'Montserrat'; 
                 font-size: 16px; 
                 padding:10px 0 0 1px;
                 font-weight:400;
-            }
+                }
 
-            .copyright p{
-            font-size: 13px;
-            padding: 1px;
-            }
+                .copyright p{
+                font-size: 13px;
+                padding: 1px;
+                 }
 
-            .charityinfo img{
+               .charityinfo img{
                 background-repeat: no-repeat;
-                background-position: left;
                 background-size: 150px;
                 height: 125px;
-                padding: -8%;
                 float: left;
-                
-            }
+                 }
 
                 .social-networks {
-                 text-align: right;
+                 text-align:center;
+                 word-spacing: 1rem;
+                 width: 300px;
+                 height: 125px;
+                 float:right;
+                 
                 }
 
                .social-networks > li {
