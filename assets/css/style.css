@@ -126,46 +126,52 @@ overflow: hidden;
 
 /* About us section */
 
-#about-section{
-    margin: 20px;
-    border: 1px solid white;
-    border-radius: 25px;
+/*#about-section{
+    /*margin: 20px;
     letter-spacing: 1px;
     padding: 25px;
-    display: block;
-    text-align: justify;
+    
     background-color: #af7381;
+    text-align: justify;
+    border-radius: 25px;
+    border: 1px solid white;
+    display: block;
     box-shadow: 2px 7px #490d1e; 
 }
+*/
 
-.about-header-section {
-    width: 100%;  
-    }
+/*.about-content{
+width:90%;
+text-align: center;
+word-spacing: 1px;
+letter-spacing: 1px;
+padding-left: 10%;
+padding-right: 3%;
+background-color: #490d1e;
+}*/
 
-.about-header-section h2{
+.about-header-section{
+    margin: 20px;
+    padding: 25px;
+    width: 100%; 
+        }
+
+.about-content h2{
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 500;
-        letter-spacing: 4px;
-        font-family: 'Gentium Book Basic', serif;  
-        color: #fff;
+        letter-spacing: 3px;
+        font-family: 'Gentium Book Basic', serif;
+        color: #18191a; 
 }
 
-
-hr{
-    border: 1px solid #490d1e; 
-    width: 50%;
-    margin-left: 350px;     
-}
-
-.about-content{
-width: 100%;
-margin-right: 10px;
-color: #fff;
-}
  
 .about-content p{
     margin-top: 10px;
+    text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 30px;
+    color: #18191a; 
     }
 
  .facilities{
