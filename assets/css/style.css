@@ -335,12 +335,14 @@ display: flex;
 
                 footer {
                  height: 200px;
-                 background-color: #af7381;
+                 background-color: #af7381;                 
+                 box-sizing: border-box;
                 }
 
-             .copyright {
+               .copyright {
                 text-align: center;
                 color: #fff;
+                
                              }
                 .copyright h3 {
                 font-family: 'Montserrat'; 
@@ -354,21 +356,15 @@ display: flex;
             padding: 1px;
             }
 
-            .charityinfo {
-                background-image: url(../images/Daimler\ Foundation-Logo.png);
+            .charityinfo img{
                 background-repeat: no-repeat;
                 background-position: left;
+                background-size: 150px;
+                height: 125px;
+                padding: -8%;
+                float: left;
                 
             }
-
-            .charityinfo h3{
-                font-family: 'Montserrat'; 
-                font-size: 16px; 
-                padding:10px 0 0 1px;
-                font-weight:400;
-
-            }
-
 
                 .social-networks {
                  text-align: right;
