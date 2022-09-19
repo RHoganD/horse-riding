@@ -24,7 +24,10 @@ h1, h2 {
 }
 
 #header-flex {
-background-color: #af7381;
+/*background-color: #af7381;
+background-color: #443933;*/
+background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
 display: flex;
 justify-content: space-between;
 }
@@ -150,11 +153,9 @@ overflow: hidden;
 .about-content{
 width:90%;
 text-align: center;
-word-spacing: 1px;
-letter-spacing: 1px;
-padding-left: 10%;
+padding-left: 7%;
 padding-right: 3%;
-background-color: #490d1e;
+
 }
 
 
@@ -164,6 +165,7 @@ background-color: #490d1e;
         font-size: 35px;
         font-weight: 500;
         letter-spacing: 3px;
+        margin-top: 30px;
         font-family: 'Gentium Book Basic', serif;
         color: #18191a; 
 }
@@ -173,7 +175,9 @@ background-color: #490d1e;
     margin-top: 10px;
     text-align: center;
     font-family: 'Gentium Book Basic', serif;
-    font-size: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     color: #18191a; 
     }
 
@@ -303,13 +307,34 @@ display: flex;
 
 
          /*Contact us page */
-         .get-in-contact h2{
+         #get-contact{
+           width: 100%;
+           height: 700px;
+                     }
+
+          #get-contact h2{
             font-size: 2rem;
-            color: #fff;
             text-align: center;
             padding: 3%;
-            }
+          }
+
+          #wrap{
+            width: 800px;
+            margin: 0 auto;
+          }
+
+           .get-in-contact{
+            position: absolute;
+            float: left;
+            padding-left: 1rem;
+            width: 50%;
+            height: 400px;
+           
+           }
+
             
+          
+               
             .get-in-contact h3{
                 font-family: 'Gentium Book Basic', serif;  
                 letter-spacing: 3px;
@@ -320,45 +345,50 @@ display: flex;
                 letter-spacing: 1px;
             }
 
-
-            #img-get-contact{
-           /* clear: left;*/
-            background: url('../images/pexels-helena-lopes.jpg');
-            background-repeat:no-repeat;
-            background-size: cover;
-            height: 700px;
-            overflow: hidden;
-             }
+         .img-get-contact{
+         /*background-image: url(../images/photo-cbca10.jpg);
+         background-repeat: no-repeat;
+         
+         */
+         width: 50%;
+         float: right;
+         margin: 0 auto;     
+        
+          }
+            .img-get-contact img{
+              /*padding-left: 600px;
+              width: 100%;*/
+              align-items: right;
+              position:relative;
+              overflow: hidden;
+              max-width: 250px;
+              height: 300px;
+             
+            }
             
-              .get-in-contact{
-               color: #fff;
-                background-color: rgba(60, 60, 60, 0.6);
-                height: 700px;
-                position: relative;
-                padding: 5px;
-                              
-              }
-            
+                    
 
                 /* footer */
 
                 footer {
-                 height: 200px;
-                 background-color: #af7381;                 
+                 height: 190px;
+                 /*background-color: #af7381; 
+                 background-color: #4158D0;
+                 background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
+                     
+                 background-color: #FF9A8B;
+                 background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+
+
                  /*box-sizing: border-box;*/
-                 margin: 0;
-                }
+                 }
 
                .copyright {
-                text-align: center;
-                color: #fff;
-                width: 400px;
+                margin-top: 20px;
+               text-align: center;
                
-                /*margin-left: 550px;*/
-                justify-content: center;
-                display: inline;
-               
-                  }
+                }
 
 
                 .copyright h3 {
@@ -366,27 +396,19 @@ display: flex;
                 font-size: 16px; 
                 padding:10px 0 0 1px;
                 font-weight:400;
+                color: #fff;
                 }
 
                 .copyright p{
                 font-size: 13px;
                 padding: 1px;
-                 }
-
-               .charityinfo img{
-                background-repeat: no-repeat;
-                background-size: 150px;
-                height: 125px;
-                float: left;
+                color: #fff;
                  }
 
                 .social-networks {
                  text-align:center;
-                 word-spacing: 1rem;
-                 width: 300px;
-                 height: 125px;
-                 float:right;
-                 
+                 margin-top: 10px;
+                                 
                 }
 
                .social-networks > li {
