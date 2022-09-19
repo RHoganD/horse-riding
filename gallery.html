@@ -31,7 +31,7 @@
                     <a href="gallery.html" class="active">Gallery</a>
                 </li>
                 <li>
-                    <a href="booking.html">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
             </nav>
@@ -41,31 +41,25 @@
     
           
     <section>
-        <h2> Gallery of our centre</h2>
+        <h2> Gallery of Memories</h2>
 
-        <div class="img-cover" id="imgcoverBox">
-            <img src="assets/images/pexels-jean-van.jpg" id="imgcover" alt="">
-            <span onclick="closeImgCover()">X</span>
+        <div class="cover-img" id="coverimgBox">
+            <img src="assets/images/1598020173.jpg" id="coverimg" alt="">
+            <span onclick="closecoverimg()">X</span>
         </div>
-        <div class="images-gallery">
-        <img src="assets/images/1598020173.jpg" onclick="openImgCover(this.src)" alt="" >         
-        <img src="assets/images/pexels-jean-van.jpg" onclick="openImgCover(this.src)" alt="" >    
-       <img src="assets/images/Pony-Day-The-Grove.png" onclick="openImgCover(this.src)" alt="" >
-        <img src="assets/images/pexels-alexander.jpg" onclick="openImgCover(this.src)" alt="" >
-        <img src="assets/images/pexels-anne-johnson.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-arthur-krijgsman.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-1.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-2.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-5.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-6.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-7.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-8.jpg" onclick="openImgCover(this.src)" alt="" >
-       <img src="assets/images/pexels-barbara-olsen-9.jpg" onclick="openImgCover(this.src)" alt="" >    
-       <img src="assets/images/pexels-barbara-olsen.jpg" onclick="openImgCover(this.src)" alt="" >    
-       <img src="assets/images/aila-klinsmann.jpg" onclick="openImgCover(this.src)" alt="" >
-      
-
-      
+       <div class="images-gallery">
+       <img src="assets/images/1598020173.jpg" onclick="opencoverimg(this.src)" alt="" >         
+       <img src="assets/images/pexels-jean-van.jpg" onclick="opencoverimg(this.src)" alt="" >    
+       <img src="assets/images/Pony-Day-The-Grove.png" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-alexander.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-anne-johnson.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-arthur-krijgsman.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-1.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-2.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-5.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-6.jpg" onclick="opencoverimg(this.src)" alt="" >
+       <img src="assets/images/pexels-barbara-olsen-8.jpg" onclick="opencoverimg(this.src)" alt="" >      
+       <img src="assets/images/aila-klinsmann.jpg" onclick="opencoverimg(this.src)" alt="" >
 
         </div>
             </section>
@@ -94,18 +88,19 @@
     </footer>
 
     <script>
-        var imgcoverBox = document.getElementbyId("imgcoverBox");
-        var imgcover = document.getElementbyId("imgcover");
+        var coverimgBox = document.getElementbyId("coverimgBox");
+        var coverimg = document.getElementbyId("coverimg");
         
-        function openImgCover(choose){
-        imgcoverBox.style.display = "flex";
-        imgcover.src = choose;
+        function opencoverimg(pic){
+            coverimgBox.style.display = "flex";
+            coverimg.src = pic;
         }
 
-        function closeImgCover(){
-        imgcoverBox.style.display = "none";   
+        function closecoverimg(){
+            coverimgBox.style.display = "none";  
         }
 </script>
+
 <!--font awesome script-->
 <script src="https://kit.fontawesome.com/fc632b9fc3.js" crossorigin="anonymous"></script>
 </body>

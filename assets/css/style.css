@@ -240,6 +240,12 @@ display: flex;
                 }
           
                 /* Gallery */
+        section h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 5% 0 0 1px;
+        word-spacing: 0;
+        }
         .images-gallery{
          width: 80%;
         margin: 100px auto 50px;
@@ -259,7 +265,7 @@ display: flex;
           box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
          }
 
-         .img-cover{
+          .cover-img{
             width: 100%;
             height: 100vh;
             background: rgba(0,0,0,0.9);
@@ -272,30 +278,19 @@ display: flex;
             z-index: 100;
             }
             
-            .img-cover img{
+            .cover-img img{
             width: 90%;
             max-width: 500px;
             }
             
-            .img-cover span{
+            .cover-img span{
             position: absolute;
-            top: 5px;
-            right: 5px;
+            top: 5%;
+            right: 5%;
             font-size: 30px;
             color: #fff;
             cursor: pointer;
             }
-
-
-
-
-
-
-
-
-
-
-
 
                 /* footer */
 
