@@ -301,6 +301,17 @@ display: flex;
             padding: 3%;
             }
             
+            .get-in-contact h3{
+                font-family: 'Gentium Book Basic', serif;  
+                letter-spacing: 3px;
+            }
+            .get-in-contact p{
+                font-size: 18px;
+                font-family: 'Gentium Book Basic', serif;  
+                letter-spacing: 1px;
+            }
+
+
             #img-get-contact{
            /* clear: left;*/
             background: url('../images/pexels-helena-lopes.jpg');
@@ -320,16 +331,44 @@ display: flex;
               }
             
 
-
-
-
-
                 /* footer */
 
                 footer {
                  height: 200px;
                  background-color: #af7381;
                 }
+
+             .copyright {
+                text-align: center;
+                color: #fff;
+                             }
+                .copyright h3 {
+                font-family: 'Montserrat'; 
+                font-size: 16px; 
+                padding:10px 0 0 1px;
+                font-weight:400;
+            }
+
+            .copyright p{
+            font-size: 13px;
+            padding: 1px;
+            }
+
+            .charityinfo {
+                background-image: url(../images/Daimler\ Foundation-Logo.png);
+                background-repeat: no-repeat;
+                background-position: left;
+                
+            }
+
+            .charityinfo h3{
+                font-family: 'Montserrat'; 
+                font-size: 16px; 
+                padding:10px 0 0 1px;
+                font-weight:400;
+
+            }
+
 
                 .social-networks {
                  text-align: right;
